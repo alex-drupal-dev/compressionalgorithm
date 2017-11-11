@@ -1,0 +1,9 @@
+<?php
+$string = "This is our compression string";
+//The previous line is where our compressed text goes
+echo str_word_count($string);
+//The previous line counts the words in our string
+$string = str_replace(' ', '', $string);
+//The previous line is where we remove the spaces from the string text
+echo strtolower($string);
+//The previous line lowers the case of all letters in the string and displays it
